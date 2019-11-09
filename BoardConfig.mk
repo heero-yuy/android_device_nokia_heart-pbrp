@@ -1,3 +1,4 @@
+LOCAL_PATH := device/nokia/heart
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := heart,Heart,TA-1032
 
@@ -79,7 +80,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/virtual/android_usb/android0/f_m
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
 # Graphics
 BOARD_USE_FRAMEBUFFER_ALPHA_CHANNEL := true
