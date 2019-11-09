@@ -8,7 +8,7 @@ jobs:
       MANIFEST_BRANCH: 'twrp-6.0'
       PBRP_BRANCH: 'mtk'
       VERSION: '2.9.0'
-      VENDOR: 'Nokia'
+      VENDOR: 'nokia'
       CODENAME: 'heart'
       BUILD_LUNCH: 'omni_heart-userdebug'
       TEST_BUILD: 'true'
