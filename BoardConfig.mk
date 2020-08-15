@@ -1,6 +1,6 @@
 LOCAL_PATH := device/nokia/heart
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := heart,Heart,TA-1032
+TARGET_OTA_ASSERT_DEVICE := heart,Heart,TA-1032,TA-1038,TA-1020,TA-1028,NE1,ne1
 
 # Architecture
 TARGET_ARCH := arm64
@@ -42,7 +42,7 @@ TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
-BOARD_NAME := SevenMaxs
+#BOARD_NAME := SevenMaxs
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
@@ -122,4 +122,4 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 #TARGET_USES_LOGD := true
 #TWRP_INCLUDE_LOGCAT := true
 
-PB_GO :=  true
+#PB_GO :=  true
