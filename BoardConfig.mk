@@ -1,4 +1,4 @@
-LOCAL_PATH := device/nokia/heart
+LOCAL_PATH := device/nokia/NE1
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := heart,Heart,TA-1032,TA-1038,TA-1020,TA-1028,NE1,ne1
 
