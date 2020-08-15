@@ -1,2 +1,2 @@
-add_lunch_combo omni_heart-userdebug
-add_lunch_combo omni_heart-eng
+add_lunch_combo omni_NE1-userdebug
+add_lunch_combo omni_NE1-eng
