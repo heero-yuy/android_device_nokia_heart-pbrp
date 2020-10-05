@@ -42,9 +42,6 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-
 # Kernel
 #BOARD_NAME := SevenMaxs
 BOARD_KERNEL_PAGESIZE := 2048
