@@ -3,7 +3,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES := \
     ${LOCAL_PATH}/prebuilt/Image.gz-dtb:kernel \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 PRODUCT_NAME := omni_NE1
 PRODUCT_DEVICE := NE1
