@@ -23,16 +23,20 @@ TARGET_USES_64_BIT_BINDER := true
 MTK_K64_SUPPORT := yes
 
 # Architecture Extensions
-TARGET_CPU_SMP := true
-ARCH_ARM_HAVE_VFP := true
-ARCH_ARM_HAVE_NEON := true
-ARCH_ARM_HAVE_TLS_REGISTER := true
+#TARGET_CPU_SMP := true
+#ARCH_ARM_HAVE_VFP := true
+#ARCH_ARM_HAVE_NEON := true
+#ARCH_ARM_HAVE_TLS_REGISTER := true
 
+# MTK Hardware
+BOARD_HAS_MTK_HARDWARE := true
+BOARD_USES_MTK_HARDWARE := true
+MTK_HARDWARE := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6753
+TARGET_BOARD_PLATFORM := mt6737m
 #TARGET_BOARD_PLATFORM_GPU := Mali-T720
-TARGET_BOOTLOADER_BOARD_NAME := mt6753
+TARGET_BOOTLOADER_BOARD_NAME := MT6735
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
@@ -110,16 +114,16 @@ TW_REBOOT_BOOTLOADER := true
 TW_FLASH_FROM_STORAGE := true
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
-TW_CRYPTO_FS_TYPE := "ext4"
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata"
-TW_CRYPTO_MNT_POINT := "/data"
-TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
+#TW_CRYPTO_FS_TYPE := "ext4"
+#TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata"
+#TW_CRYPTO_MNT_POINT := "/data"
+#TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
 TW_INCLUDE_NTFS_3G := true
 TW_NO_EXFAT_FUSE := true
 TWHAVE_SELINUX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 
-#TARGET_USES_LOGD := true
-#TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
 
 #PB_GO :=  true
